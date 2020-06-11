@@ -16,10 +16,20 @@
 
     }
 
-    Page-home main { 
+    #page-home main { 
         align-items: center;
         
     }
+
+    #page-search-results {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results .cards img {
+        height: 250px;
+    }
+
+
 }
 
 @media (min-width: 1700) {
