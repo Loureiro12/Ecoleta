@@ -1,0 +1,25 @@
+{
+  "name": "Ecoleta",
+  "version": "1.0.0",
+  "description": "Projeto realizado na maratona Rocketseat",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loureiro12/Ecoleta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Loureiro12/Ecoleta/issues"
+  },
+  "homepage": "https://github.com/Loureiro12/Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
+  }
+}
