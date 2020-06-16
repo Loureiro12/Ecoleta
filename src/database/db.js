@@ -51,9 +51,17 @@ db.serialize(() => {
         console.log("Cadastrado com sucesso")
         console.log(this)
     }
+ 
 
+   // db.run(query, values, afterinsertData)
 
-    db.run(query, values, afterinsertData)
+   // consultar os dados da tabela 
+   //db.all(`SELECT name FROM places`, function(err, rows) {
+     //  if(err) {
+       //     return console.log(err)
+         //}
+           //console.log("Aqui estão seus registros: ")
+           //console.log(rows)
+   })
 
-
-})
+//})
